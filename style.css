@@ -1,0 +1,44 @@
+* {
+    Box-sizing: border-box;
+    Margin: 0;
+}
+
+Body {
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    Min-height: 100vh;
+}
+
+.container {
+    Background-color: #4FBDBA;
+    Display: grid;
+    Gap: 20px;
+    Width: 500px;
+    Max-width: calc(100vw – 40px);
+    Padding: 30px;
+    Border-radius: 10px;
+    Font-size: 1.2rem;
+}
+
+#text {
+    Display: block;
+    Height: 100px;
+    Border-radius: .5rem;
+    Font-size: 1.5rem;
+    Border: none;
+    Resize: none;
+    Padding: 8px 10px;
+    Outline: 2px solid rgba(120, 120, 120, 0.623);
+}
+
+Button {
+    Padding: 10px;
+    Background: #072227;
+    Color: #fff;
+    Border-radius: .5rem;
+    Cursor: pointer;
+    Border: none;
+    Font-size: 1rem;
+    Font-weight: bold;
+}
